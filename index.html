@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>社会实践成果展示</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <!-- 头部 -->
+    <header>
+      <div class="author">作者：皇德耀世团队</div>
+      <h1>社会实践成果展示</h1>
+      <div class="show-time" id="show-time"></div>
+      <script>
+        setInterval("document.getElementById('show-time').innerHTML=new Date().toLocaleString();", 1000);
+      </script>
+    </header>
+
+    <!-- 页面主体 -->
+    <section class="mainbox">
+      <!-- 左侧盒子 -->
+      <div class="column">
+        <div class="panel p1">
+          <h2>性别</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p5">
+          <h2>是否接种新冠疫苗</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p9">
+          <h2>不戴口罩患新冠可能性</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p13">
+          <h2>对接种疫苗了解程度</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p17">
+          <h2>疫情防控需要从点滴做起</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+      </div>
+      <!-- 中间盒子 -->
+      <div class="column">
+        <div class="panel p2">
+          <h2>年龄</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p6">
+          <h2>疫苗接种意愿</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p10">
+          <h2>关注疫情新闻</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p14">
+          <h2>对疫苗安全性是否存疑</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p18">
+          <h2>佩戴口罩情况</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+      </div>
+      <!-- 右侧盒子 -->
+      <div class="column">
+        <div class="panel p3">
+          <h2>学历</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p7">
+          <h2>是否关注医学知识</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p11">
+          <h2>身边人接种疫苗态度</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p15">
+          <h2>对疫苗有效性是否存疑</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p19">
+          <h2>是否想做抗疫志愿者</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="panel p4">
+          <h2>职业</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p8">
+          <h2>对医学应急知识了解程度</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p12">
+          <h2>疫情对生活影响</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p16">
+          <h2>病毒变异是否影响接种决策</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p20">
+          <h2>词云</h2>
+          <img src="images/wordcloud.jpg" width="90%" style="margin: auto;display: block">
+          <div class="panel-footer"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/flexible.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.1.0/echarts.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
